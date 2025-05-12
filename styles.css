@@ -1,0 +1,43 @@
+body{
+    display: grid;
+    grid:
+    "head_div" 25%
+    "body_div" 40%
+    "footer_div" 25%;
+    gap: 50px;
+
+    text-align: center;
+    justify-content: center;
+
+    background-color: #2C2C2C;
+}
+
+.head_div{
+    background-color: #E4E4E4;
+    border-radius: 10px;
+}
+
+.body_div{
+    display: flex;
+}
+
+.manage_button{
+    height: 100%;
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    border-radius: 10px;
+    border-style: none;
+    
+}
+
+.review_button{
+    height: 100%;
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    border-radius: 10px;
+    border-style: none;
+}
