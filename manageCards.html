@@ -8,14 +8,18 @@
 </head>
 
 <body>
-    
-    <div class="add_card_container" block>
+    <div class="add_card_container">
         <form id="cardForm">
-            <label for="vocabword" class="input_header"><b>Front</label><br>
-            <input type="text" id="vocabword" placeholder="Vocab Word" required><br>
-            <label for="translation" class="input_header"><b>Back</label><br>
-            <input type="text" id="translation" placeholder="言葉" required><br>
-            <input type="text" id="description" placeholder="Description" required><br>
+            <div class="frontCardForm">
+                <label for="vocabword" class="input_header"><b>Front</label>
+                <input type="text" id="vocabword" placeholder="Vocab Word" required>
+            </div>
+
+            <div class="backCardForm">
+                <label for="translation" class="input_header"><b>Back</label>
+                <input type="text" id="translation" placeholder="言葉" required>
+                <input type="text" id="description" placeholder="Description" required>
+            </div>
 
             <button type="submit">Add Card</button><br>
     </div>
