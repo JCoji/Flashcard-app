@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container">
+    
+    <div class="add_card_container" block>
         <form id="cardForm">
-            <label for="vocabword"><b>Front</label><br>
+            <label for="vocabword" class="input_header"><b>Front</label><br>
             <input type="text" id="vocabword" placeholder="Vocab Word" required><br>
-            <label for="translation"><b>Back</label><br>
+            <label for="translation" class="input_header"><b>Back</label><br>
             <input type="text" id="translation" placeholder="言葉" required><br>
             <input type="text" id="description" placeholder="Description" required><br>
 
-            <button type="submit">Add Card</button>
+            <button type="submit">Add Card</button><br>
     </div>
 </body>
 </html>
