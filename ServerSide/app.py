@@ -16,7 +16,7 @@ class Accounts(db.Model):
 
 class Cards(db.Model):
     cardId = db.Column(db.Integer, primary_key=True)
-    userId = db.Column(db.String(30), foreighn_key=True)
+    userId = db.Column(db.String(30), db.ForeignKey('accounts.userId'))
     vocabNL = db.Column(db.String(100), nullable=False)
     vocabTL = db.Column(db.String(100), nullable=False)
     description = db.Column(db.String(500))
